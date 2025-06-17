@@ -63,7 +63,7 @@ time.sleep(1)
 
 pyautogui.moveTo(810, 710) # Move to Email
 pyautogui.click()
-pyperclip.copy("s14mecka@uni-bonn.de") # Email here
+pyperclip.copy("") # Email here
 pyautogui.hotkey("ctrl", "v")
 pyautogui.press('tab')
 pyautogui.write('') # Password here
